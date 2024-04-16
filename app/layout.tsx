@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { inter, lusi } from '@/app/ui/fonts';
+import { inter, lusitana } from '@/app/ui/fonts';
 
 export default function RootLayout({
   children,
@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     
     <html lang="en">
-         {/* <p className={lusi.className}>My page</p> */}
+         {/* <p className={lusitana.className}>My page</p> */}
       <body className={`${inter.className} antialiased`}>{children}</body>
    
       {/* <body>{children}</body> */}
